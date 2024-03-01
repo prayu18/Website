@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>THE WORLD OF FASHION</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      content: "";
+      background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMTUD6LUQc-8b2oc2tEaa73Vdom1Q3OnM2YA&usqp=CAU);
+      background-size: cover;
+      background-position: center;
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      z-index: -1;
+    }
+    
+    header {
+      background-image: url(https://media.istockphoto.com/id/1431188687/photo/dark-purple-background-template-with-circles-pattern-blurred-bubbles-pattern-on-abstract.webp?b=1&s=170667a&w=0&k=20&c=XIzLsEWtioNTyDjMd3_QrrISLcaQD2b8JC6iUGmjG-Y=);
+      color: yellow;
+      background-repeat: no-repeat;
+      background-size: cover;
+      padding: 20px;
+      text-align: center;
+    }
+    
+    section {
+      margin: 20px;
+    }
+    
+    h2 {
+      color: #333;
+      background-image: url(https://media.istockphoto.com/id/1472135406/vector/peach-abstract-watercolor-texture-background-vector-beige-watercolour-pattern.jpg?s=612x612&w=0&k=20&c=ep1tPIMkbhVvzY28fkWWkGn-RoYdtNW-DfXDmuD6Kvk=);
+      background-blend-mode: color;
+    }
+    
+    p {
+      color: #555;
+    }
+    
+    .Fashion-list {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center; 
+    }
+
+    .Cloth-card {
+      width: 300px;
+      margin: 10px;
+      padding: 10px;
+      background-color: #f1f1f1;
+      border-radius: 4px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+    
+    .Cloth-card img {
+      width: 100%;
+      border-radius: 4px;
+    }
+    
+    .Cloth-card h3 {
+      margin-top: 10px;
+    }
+    
+    .Cloth-card p {
+      margin-bottom: 10px;
+    }
+    
+    .Cloth-card .arrow-button {
+      font-size: 24px;
+      padding: 10px;
+      color: rgb(17, 17, 17);
+      text-align: center;
+      text-decoration: none;
+      border-radius: 4px;
+    }
+    
+    .Cloth-card:nth-child(2) img {
+      height: 170px; 
+    }
+    .Cloth-card:nth-child(3) img {
+      height: 170px; 
+    }
+    .Cloth-card:nth-child(1) img {
+      height: 170px;
+    }
+    .Cloth-card:nth-child(5) img {
+      height: 170px;
+    }
+    .Cloth-card:nth-child(4) img {
+      height: 170px;
+    }
+    footer {
+      position: fixed;
+      bottom: 0;
+      right: 1%;
+      padding: 10px;
+      text-align: right;
+      width: 100%;
+    }
+
+    /* Added the slide-in animation */
+    @keyframes slideInHeader {
+      0% {
+        transform: translateX(-100%);
+        opacity: 0;
+      }
+      100% {
+        transform: translateX(0);
+        opacity: 1;
+      }
+    }
+
+    .slide-container img {
+      animation: slideInHeader 1s ease-out;
+      animation-fill-mode: backwards;
+      opacity: 1;
+    }
+
+    .slide-container img:nth-child(1) {
+      animation-delay: 0.5s;
+    }
+
+    .slide-container img:nth-child(2) {
+      animation-delay: 1.5s;
+    }
+
+    .slide-container img:nth-child(3) {
+      animation-delay: 2.5s;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    
+    <h1>"Trendy Treasures" <br>
+      <div class="slide-container">
+        
+          <img class="slide-in" src="c:\Users\A34\Downloads\spring-sale-banner-with-photo-hand-drawn-flowers_1188-299.avif" alt="Image 1" style="width: 350px;">
+          <img class="slide-in" src="c:\Users\A34\Downloads\download (19).jfif" alt="image 2" style="width: 350px;">
+          <img class="slide-in" src="c:\Users\A34\Downloads\summer-fashion-sale-banner-design-template-62077c541db2b288dbccd6d9d1c9af3d_screen.jpg" alt="image 3" style="width: 350px;">
+        
+      </div>
+    </h1>
+  </header>
+  
+  <center>
+    <section>
+      <h2>"Unleash Your Inner Glamour: Exclusive Fashion Sale"</h2>
+      <div class="Fashion-list">
+        <div class="Cloth-card">
+          <img src="https://images.shaadisaga.com/shaadisaga_production/photos/pictures/000/986/933/new_medium/BeFunky-collage_-_2019-07-22T112910.636.jpg" alt="Lehengas">
+          <h3>Lehengas</h3>
+          <a href="lehenga.html" class="Go-button">Shop Now</a>
+        </div>
+        <div class="Cloth-card">
+          <img src="https://stuffexport.com/wp-content/uploads/2022/12/16705743921883084035.jpeg " alt="Sarees">
+          <h3>Sarees</h3>
+          <a href="saree.html" class="Go-button"> Shop Now</a>
+        </div>
+        
+      </div>
+    </section>
+  </center>
+  <footer>
+    <!-- Add your footer content here -->
+  </footer>
+  
+</body>
+</html>

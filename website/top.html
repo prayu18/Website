@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fashion Store</title>
+    <style>
+        body {
+            background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCF3F4FlPSX38GE5u0Obcsxj49wdl7xqZa8a-2GJmVKf44BMloL2rYADJES_AcDjktvzI&usqp=CAU);
+            background-repeat: no-repeat;
+            background-size: cover;
+            margin: 0; /* Remove default body margin */
+        }
+
+        .button {
+            border: none;
+            background: none;
+            font-size: 24px;
+            font-weight: bold;
+            margin: 20px;
+            text-decoration: underline;
+        }
+
+        .Fashion-list {
+            display: flex;
+            justify-content: space-between;
+            padding: 0 20px;
+        }
+
+        .Cloth-card {
+            text-align: center;
+            margin-bottom: 5px; /* Adjust as needed for spacing between cards */
+            padding: 10px; /* Add padding for better aesthetics */
+        }
+
+        .Cloth-card img {
+            width: 200px;
+            height: auto;
+        }
+
+        h4, h5, h6 {
+            text-decoration: underline;
+            color: black;
+            margin-bottom: 5px;
+            font-weight: bold;
+            font-size: large;
+        }
+
+        h8 {
+            font-weight: bold;
+            margin-top: 0;
+        }
+
+        .Add-to-cart {
+            text-decoration: underline;
+            font-weight: bold;
+            color: blue;
+            display: block;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <label for="sort">Sort: </label>
+        <select id="sort">
+            <option value="asc">Low to High</option>
+            <option value="desc">High to Low</option>
+        </select>
+
+        <a href="fashion.html">
+            <button class="button">Casual Wear</button>
+        </a>
+        <a href="western.html">
+            <button class="button">Western Wear</button>
+        </a>
+        <a href="traditional.html">
+            <button class="button">Traditional Wear</button>
+        </a>
+        <a href="signin.html">
+            <button class="button">Sign in</button>
+        </a>
+        <a href="signup.html">
+            <button class="button">Sign Up</button>
+        </a>
+    </div>
+
+    <section class="Fashion-list">
+        <div class="Cloth-card">
+            <img src="https://rukminim2.flixcart.com/image/832/832/xif0q/top/s/u/v/-original-imagu22axnnf424b.jpeg?q=70&crop=false" alt="Casual">
+            <h4>HARPA <br>Casual Regular Sleeves Solid Women Pink Top</h4>
+            <h8>₹459</h8>
+            <a href="#" class="Add-to-cart">Add To Cart</a>
+        </div>
+
+        <div class="Cloth-card">
+            <img src="https://rukminim2.flixcart.com/image/832/832/l2f20sw0/top/k/6/x/xl-gr6247-multi-harpa-original-imagdrgfuaxsjfp3.jpeg?q=70&crop=false" alt="Casual">
+            <h5>La Zoire <br>Casual Puff Sleeves Printed Women Multicolor Top</h5>
+            <h8>₹690</h8>
+            <a href="#" class="Add-to-cart">Add To Cart</a>
+        </div>
+
+        <div class="Cloth-card">
+            <img src="https://rukminim2.flixcart.com/image/832/832/l2arp8w0/top/i/e/4/m-sftops40794-sassafras-original-imagdzdagz7yq9hb.jpeg?q=70&crop=false" alt="Casual">
+            <h6>SASSAFRAS <br>Casual Sleeveless Self Design Women Brown Top</h6>
+            <h8>₹550</h8>
+            <a href="#" class="Add-to-cart">Add To Cart</a>
+        </div>
+    </section>
+</body>
+</html>

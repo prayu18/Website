@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fashion Store</title>
+    <style>
+        body {
+            background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCF3F4FlPSX38GE5u0Obcsxj49wdl7xqZa8a-2GJmVKf44BMloL2rYADJES_AcDjktvzI&usqp=CAU);
+            background-repeat: no-repeat;
+            background-size: cover;
+            margin: 0; /* Remove default body margin */
+        }
+
+        .button {
+            border: none;
+            background: none;
+            font-size: 24px;
+            font-weight: bold;
+            margin: 20px;
+            text-decoration: underline;
+        }
+
+        .Fashion-list {
+            display: flex;
+            justify-content: space-between;
+            padding: 0 20px;
+        }
+
+        .Cloth-card {
+            text-align: center;
+            margin-bottom: 5px; /* Adjust as needed for spacing between cards */
+            padding: 10px; /* Add padding for better aesthetics */
+        }
+
+        .Cloth-card img {
+            width: 200px;
+            height: auto;
+        }
+
+        h4, h5, h6 {
+            text-decoration: underline;
+            color: black;
+            margin-bottom: 5px;
+            font-weight: bold;
+            font-size: large;
+        }
+
+        h8 {
+            font-weight: bold;
+            margin-top: 0;
+        }
+
+        .Add-to-cart {
+            text-decoration: underline;
+            font-weight: bold;
+            color: blue;
+            display: block;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <label for="sort">Sort: </label>
+        <select id="sort">
+            <option value="asc">Low to High</option>
+            <option value="desc">High to Low</option>
+        </select>
+
+        <a href="fashion.html">
+            <button class="button">Casual Wear</button>
+        </a>
+        <a href="western.html">
+            <button class="button">Western Wear</button>
+        </a>
+        <a href="traditional.html">
+            <button class="button">Traditional Wear</button>
+        </a>
+        <a href="signin.html">
+            <button class="button">Sign in</button>
+        </a>
+        <a href="signup.html">
+            <button class="button">Sign Up</button>
+        </a>
+    </div>
+
+    <section class="Fashion-list">
+        <div class="Cloth-card">
+            <img src="https://i.etsystatic.com/24998233/r/il/cc8b56/3522721499/il_570xN.3522721499_iyeg.jpg" alt="Traditional">
+            <h4>Sabyasachi <br>Designer Lehenga Choli </h4>
+            <h8>₹3999</h8>
+            <a href="#" class="Add-to-cart">Add To Cart</a>
+        </div>
+
+        <div class="Cloth-card">
+            <img src="https://assets.shopkund.com/media/catalog/product/cache/3/image/9df78eab33525d08d6e5fb8d27136e95/p/r/prt9686-1thread-soft-net-wedding-lehenga-choli-in-olive-with-dupatta-lc6820_1_.jpg" alt="Traditional">
+            <h5>slytr<br>Thread Wedding Lehenga Choli in Olive Soft net</h5>
+            <h8>₹4000</h8>
+            <a href="#" class="Add-to-cart">Add To Cart</a>
+        </div>
+
+        <div class="Cloth-card">
+            <img src="https://assets.ajio.com/medias/sys_master/root/20230809/hWOm/64d3be9ea9b42d15c99edc93/-473Wx593H-466438073-pink-MODEL.jpg" alt="Traditional">
+            <h6>ZEEL CLOTHING<br>
+                Embellished Lehenga Choli Set with Dupatta </h6>
+            <h8>₹2000</h8>
+            <a href="#" class="Add-to-cart">Add To Cart</a>
+        </div>
+    </section>
+</body>
+</html>
